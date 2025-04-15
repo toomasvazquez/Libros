@@ -1,73 +1,70 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Novedades - Libros del Negro</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Novedades | Libros del Negro</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <div class="navbar">
-            <div class="logo">
-                <h2>Libros del Negro</h2>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Inicio</a></li> <!-- Volver a la página principal -->
-                    <li><a href="novedades.html">Novedades</a></li>
-                    <li><a href="#">Categorías</a></li>
-                    <li><a href="#">Contacto</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
 
-    <!-- Sección de Novedades en esta página -->
-    <section class="novedades">
-        <h2>Novedades</h2>
-        <div class="books">
-            <div class="book">
-                <img src="https://via.placeholder.com/250x350" alt="Libro 1">
-                <div class="book-info">
-                    <h3>Libro 1</h3>
-                    <p class="author">Autor 1</p>
-                    <p class="price">$ 10.99</p>
-                    <button class="btn">Ver más</button>
-                </div>
-            </div>
-            <div class="book">
-                <img src="https://via.placeholder.com/250x350" alt="Libro 2">
-                <div class="book-info">
-                    <h3>Libro 2</h3>
-                    <p class="author">Autor 2</p>
-                    <p class="price">$ 12.99</p>
-                    <button class="btn">Ver más</button>
-                </div>
-            </div>
-            <div class="book">
-                <img src="https://via.placeholder.com/250x350" alt="Libro 3">
-                <div class="book-info">
-                    <h3>Libro 3</h3>
-                    <p class="author">Autor 3</p>
-                    <p class="price">$ 15.99</p>
-                    <button class="btn">Ver más</button>
-                </div>
-            </div>
-            <div class="book">
-                <img src="https://via.placeholder.com/250x350" alt="Libro 4">
-                <div class="book-info">
-                    <h3>Libro 4</h3>
-                    <p class="author">Autor 4</p>
-                    <p class="price">$ 8.99</p>
-                    <button class="btn">Ver más</button>
-                </div>
-            </div>
-        </div>
-    </section>
+  <header>
+    <div class="navbar">
+      <div class="logo">
+        <h2>Libros del Negro</h2>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="novedades.html" class="active">Novedades</a></li>
+          <li><a href="categorias.html">Categorías</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <footer>
-        <p>&copy; 2025 Libros del Negro. Todos los derechos reservados.</p>
-    </footer>
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Últimas Novedades</h1>
+      <p>Descubrí los nuevos títulos que acaban de llegar a Libros del Negro</p>
+      <a href="categorias.html" class="btn">Ver Categorías</a>
+    </div>
+  </section>
+
+  <!-- NOVEDADES SECTION -->
+  <section class="novedades">
+    <h2>Explorá nuestros nuevos libros</h2>
+    <p>En esta sección, encontrarás las obras más recientes en nuestra tienda. ¡No te las podés perder!</p>
+
+    <div class="novedades-grid">
+      <!-- Example of a new book item -->
+      <div class="novedad-item">
+        <img src="https://via.placeholder.com/300x400" alt="Libro 1">
+        <h3>El misterio del lago</h3>
+        <p>Una historia intrigante llena de suspenso y misterio, ambientada en un pequeño pueblo junto a un lago enigmático.</p>
+      </div>
+
+      <div class="novedad-item">
+        <img src="https://via.placeholder.com/300x400" alt="Libro 2">
+        <h3>El viaje a la luna</h3>
+        <p>Aventura espacial con una trama emocionante sobre un grupo de astronautas enfrentando lo desconocido.</p>
+      </div>
+
+      <div class="novedad-item">
+        <img src="https://via.placeholder.com/300x400" alt="Libro 3">
+        <h3>Secretos del pasado</h3>
+        <p>Una novela histórica que desvela secretos antiguos, con personajes atrapados entre la historia y el destino.</p>
+      </div>
+
+      <!-- Add more books here as needed -->
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Libros del Negro. Todos los derechos reservados.</p>
+  </footer>
+
 </body>
 </html>
