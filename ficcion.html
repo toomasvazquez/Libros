@@ -1,53 +1,60 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ficción | Libros del Negro</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ficción | Libros del Negro</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <header>
+    <div class="navbar">
+      <div class="logo">
+        <h2>Libros del Negro</h2>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="novedades.html">Novedades</a></li>
+          <li><a href="categorias.html" class="active">Categorías</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <header>
-        <div class="navbar">
-            <div class="logo">
-                <h2>Libros del Negro</h2>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="novedades.html">Novedades</a></li>
-                    <li><a href="categorias.html">Categorías</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+  <section class="hero categoria-ficcion">
+    <div class="hero-content">
+      <h1>Ficción</h1>
+      <p>Sumergite en mundos imaginarios, personajes inolvidables y tramas atrapantes.</p>
+    </div>
+  </section>
 
-    <section class="books">
-        <h2>Libros de Ficción</h2>
+  <section class="categoria-libros">
+    <h2>Libros de Ficción Destacados</h2>
+    <div class="libros-grid">
+      <div class="libro-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT04LXWkqN1tt4td7yww7rXPcA2TN0OwaIv1g&s" alt="Libro Ficción 1">
+        <h3>Sombras del Tiempo</h3>
+        <p>Un viaje a través de distintas épocas, donde el destino de la humanidad pende de un hilo.</p>
+      </div>
 
-        <div class="book">
-            <img src="path/to/book-image1.jpg" alt="Libro 1">
-            <div class="book-info">
-                <h3>El Gran Viaje</h3>
-                <p class="author">Autor: Juan Pérez</p>
-                <p class="price">$20.00</p>
-                <button class="btn">Comprar</button>
-            </div>
-        </div>
+      <div class="libro-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0qd9CD1qYe6Gid7m4fP5tFGOTCHClrKL-YA&s" alt="Libro Ficción 2">
+        <h3>Ciudad de Humo</h3>
+        <p>Una ciudad distópica donde la verdad se esconde tras cada rincón oscuro.</p>
+      </div>
 
-        <div class="book">
-            <img src="path/to/book-image2.jpg" alt="Libro 2">
-            <div class="book-info">
-                <h3>Aventuras del Más Allá</h3>
-                <p class="author">Autor: María López</p>
-                <p class="price">$18.00</p>
-                <button class="btn">Comprar</button>
-            </div>
-        </div>
+      <div class="libro-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0hyIJIShvJTykGQ7-N-qtdUMrdWLtK-kdcA&s" alt="Libro Ficción 3">
+        <h3>El Eco de los Sueños</h3>
+        <p>Relatos entrelazados en un universo paralelo que desafían la lógica y el tiempo.</p>
+      </div>
+    </div>
+  </section>
 
-    </section>
-
-    <footer>
-        <p>&copy; 202
+  <footer>
+    <p>&copy; 2025 Libros del Negro. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>

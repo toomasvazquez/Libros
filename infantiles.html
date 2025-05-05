@@ -1,57 +1,60 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Infantiles | Libros del Negro</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Infantiles | Libros del Negro</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <header>
+    <div class="navbar">
+      <div class="logo">
+        <h2>Libros del Negro</h2>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="novedades.html">Novedades</a></li>
+          <li><a href="categorias.html" class="active">Categorías</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <header>
-        <div class="navbar">
-            <div class="logo">
-                <h2>Libros del Negro</h2>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="novedades.html">Novedades</a></li>
-                    <li><a href="categorias.html">Categorías</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+  <section class="hero categoria-infantiles">
+    <div class="hero-content">
+      <h1>Libros Infantiles</h1>
+      <p>Descubrí las historias que encantarán a los más pequeños.</p>
+    </div>
+  </section>
 
-    <section class="books">
-        <h2>Libros Infantiles</h2>
+  <section class="categoria-libros">
+    <h2>Selección Destacada</h2>
+    <div class="libros-grid">
+      <div class="libro-item">
+        <img src="https://images-na.ssl-images-amazon.com/images/I/81eB+7+CkUL.jpg" alt="El diario de un unicornio">
+        <h3>El diario de un unicornio</h3>
+        <p>Una serie de aventuras fantásticas, llena de humor y ternura, que engancha a los primeros lectores.</p>
+      </div>
 
-        <div class="book">
-            <img src="https://via.placeholder.com/250x350" alt="Libro Infantil 1">
-            <div class="book-info">
-                <h3>La Aventura en el Bosque</h3>
-                <p class="author">Autor: Carla Martínez</p>
-                <p class="price">$15.99</p>
-                <button class="btn">Comprar</button>
-            </div>
-        </div>
+      <div class="libro-item">
+        <img src="https://images-na.ssl-images-amazon.com/images/I/91bYsX41DVL.jpg" alt="La divertida vida de las mascotas">
+        <h3>La divertida vida de las mascotas</h3>
+        <p>Un libro de aventuras cortas y personajes entrañables que acercará a los niños al amor por los animales y la naturaleza.</p>
+      </div>
 
-        <div class="book">
-            <img src="https://via.placeholder.com/250x350" alt="Libro Infantil 2">
-            <div class="book-info">
-                <h3>El Misterio del Castillo</h3>
-                <p class="author">Autor: Alberto López</p>
-                <p class="price">$12.99</p>
-                <button class="btn">Comprar</button>
-            </div>
-        </div>
+      <div class="libro-item">
+        <img src="https://images-na.ssl-images-amazon.com/images/I/81OthjkJBuL.jpg" alt="¿Quién muerde en la página verde?">
+        <h3>¿Quién muerde en la página verde?</h3>
+        <p>Un libro interactivo que despierta la curiosidad de los niños a través de divertidas sorpresas en cada página.</p>
+      </div>
+    </div>
+  </section>
 
-    </section>
-
-    <footer>
-        <p>&copy; 2025 Libros del Negro. Todos los derechos reservados.</p>
-    </footer>
-
+  <footer>
+    <p>&copy; 2025 Libros del Negro. Todos los derechos reservados.</p>
+  </footer>
 </body>
 </html>

@@ -1,57 +1,60 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Poesía | Libros del Negro</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Poesía | Libros del Negro</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <header>
+    <div class="navbar">
+      <div class="logo">
+        <h2>Libros del Negro</h2>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="novedades.html">Novedades</a></li>
+          <li><a href="categorias.html" class="active">Categorías</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <header>
-        <div class="navbar">
-            <div class="logo">
-                <h2>Libros del Negro</h2>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="novedades.html">Novedades</a></li>
-                    <li><a href="categorias.html">Categorías</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+  <section class="hero categoria-poesia">
+    <div class="hero-content">
+      <h1>Poesía</h1>
+      <p>Sumergite en el mundo de los versos, emociones profundas y belleza literaria.</p>
+    </div>
+  </section>
 
-    <section class="books">
-        <h2>Libros de Poesía</h2>
+  <section class="categoria-libros">
+    <h2>Libros de Poesía Destacados</h2>
+    <div class="libros-grid">
+      <div class="libro-item">
+        <img src="https://http2.mlstatic.com/D_NQ_NP_639699-CBT78468136975_082024-O.webp" alt="Libro Poesía 1">
+        <h3>Versos del Alma</h3>
+        <p>Una colección de poesías que exploran el alma humana y sus emociones.</p>
+      </div>
 
-        <div class="book">
-            <img src="path/to/book-image5.jpg" alt="Libro 1">
-            <div class="book-info">
-                <h3>Poemas del Alma</h3>
-                <p class="author">Autor: Julia Sánchez</p>
-                <p class="price">$15.00</p>
-                <button class="btn">Comprar</button>
-            </div>
-        </div>
+      <div class="libro-item">
+        <img src="https://http2.mlstatic.com/D_NQ_NP_710052-CBT76442640863_052024-O.webp" alt="Libro Poesía 2">
+        <h3>Susurros de la Luna</h3>
+        <p>Una serie de poemas inspirados por la luna y la naturaleza.</p>
+      </div>
 
-        <div class="book">
-            <img src="path/to/book-image6.jpg" alt="Libro 2">
-            <div class="book-info">
-                <h3>Versos Eternos</h3>
-                <p class="author">Autor: Antonio Ruiz</p>
-                <p class="price">$12.00</p>
-                <button class="btn">Comprar</button>
-            </div>
-        </div>
+      <div class="libro-item">
+        <img src="https://http2.mlstatic.com/D_NQ_NP_913268-CBT75812372846_042024-O.webp" alt="Libro Poesía 3">
+        <h3>El Río de las Palabras</h3>
+        <p>Reflexiones poéticas sobre el flujo constante de pensamientos y palabras.</p>
+      </div>
+    </div>
+  </section>
 
-    </section>
-
-    <footer>
-        <p>&copy; 2025 Libros del Negro. Todos los derechos reservados.</p>
-    </footer>
-
+  <footer>
+    <p>&copy; 2025 Libros del Negro. Todos los derechos reservados.</p>
+  </footer>
 </body>
 </html>

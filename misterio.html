@@ -1,57 +1,78 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Misterio | Libros del Negro</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Misterio | Libros del Negro</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <header>
+    <div class="navbar">
+      <div class="logo">
+        <h2>Libros del Negro</h2>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="novedades.html">Novedades</a></li>
+          <li><a href="categorias.html">Categorías</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <header>
-        <div class="navbar">
-            <div class="logo">
-                <h2>Libros del Negro</h2>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="novedades.html">Novedades</a></li>
-                    <li><a href="categorias.html">Categorías</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+  <section class="hero categoria-misterio">
+    <div class="hero-content">
+      <h1>Misterio</h1>
+      <p>Sumergite en las tramas más intrigantes, con asesinatos, secretos y giros sorprendentes.</p>
+    </div>
+  </section>
 
-    <section class="books">
-        <h2>Libros de Misterio</h2>
+  <section class="categoria-libros">
+    <h2>Libros de Misterio Destacados</h2>
+    <div class="libros-grid">
+      <div class="libro-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxJrqnmrBkpKi-wHtjWL-9_V5Al59mPxiCpQ&s" alt="La Chica del Tren">
+        <h3>La Chica del Tren</h3>
+        <p>Un thriller psicológico sobre una mujer que se ve atrapada en una red de mentiras, secretos y un asesinato.</p>
+      </div>
 
-        <div class="book">
-            <img src="https://via.placeholder.com/250x350" alt="Libro de Misterio 1">
-            <div class="book-info">
-                <h3>El Caso del Espejo Roto</h3>
-                <p class="author">Autor: Daniel García</p>
-                <p class="price">$18.50</p>
-                <button class="btn">Comprar</button>
-            </div>
-        </div>
+      <div class="libro-item">
+        <img src="https://images.cdn2.buscalibre.com/fit-in/360x360/a4/04/a40463ba8307fb91ce4dd607df7fcdae.jpg  " alt="El Silencio de la Ciudad Blanca">
+        <h3>El Silencio de la Ciudad Blanca</h3>
+        <p>Una serie de asesinatos aterradores en Vitoria, España, y un detective decidido a resolver el caso.</p>
+      </div>
 
-        <div class="book">
-            <img src="https://via.placeholder.com/250x350" alt="Libro de Misterio 2">
-            <div class="book-info">
-                <h3>La Sombra del Asesino</h3>
-                <p class="author">Autor: Ana Rodríguez</p>
-                <p class="price">$22.00</p>
-                <button class="btn">Comprar</button>
-            </div>
-        </div>
+      <div class="libro-item">
+        <img src="https://images.cdn3.buscalibre.com/fit-in/360x360/aa/d8/aad8db0b27a7bfcefafc4e13a66ddac6.jpg" alt="La Sombra del Viento">
+        <h3>La Sombra del Viento</h3>
+        <p>Una novela de misterio que se mezcla con romance y drama, mientras un joven investiga un escritor perdido.</p>
+      </div>
 
-    </section>
+      <div class="libro-item">
+        <img src="https://contentv2.tap-commerce.com/cover/large/9789875808850_1.jpg?id_com=1156" alt="El Código Da Vinci">
+        <h3>El Código Da Vinci</h3>
+        <p>Un thriller de conspiración histórica que pone en juego la historia del cristianismo, los secretos del arte y la religión.</p>
+      </div>
 
-    <footer>
-        <p>&copy; 2025 Libros del Negro. Todos los derechos reservados.</p>
-    </footer>
+      <div class="libro-item">
+        <img src="https://images.cdn1.buscalibre.com/fit-in/360x360/2f/e4/2fe487d9fe7072bfc1a4f419964b0c0a.jpg" alt="Asesinato en el Expreso de Oriente">
+        <h3>Asesinato en el Expreso de Oriente</h3>
+        <p>Un clásico de Agatha Christie, donde el detective Hércules Poirot resuelve un crimen en un tren de lujo.</p>
+      </div>
 
+      <div class="libro-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyxMZbnlAmDMT2Cj4AnarrDdWI6VYMupvnNQ&s" alt="El Resplandor">
+        <h3>El Resplandor</h3>
+        <p>Un thriller psicológico con tintes de terror, donde la locura se desata en un hotel aislado durante el invierno.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Libros del Negro. Todos los derechos reservados.</p>
+  </footer>
 </body>
 </html>

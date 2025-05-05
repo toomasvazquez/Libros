@@ -1,57 +1,60 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>No Ficción | Libros del Negro</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>No Ficción | Libros del Negro</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <header>
+    <div class="navbar">
+      <div class="logo">
+        <h2>Libros del Negro</h2>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="novedades.html">Novedades</a></li>
+          <li><a href="categorias.html" class="active">Categorías</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <header>
-        <div class="navbar">
-            <div class="logo">
-                <h2>Libros del Negro</h2>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="novedades.html">Novedades</a></li>
-                    <li><a href="categorias.html">Categorías</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+  <section class="hero categoria-no-ficcion">
+    <div class="hero-content">
+      <h1>No Ficción</h1>
+      <p>Conocé libros que exploran la realidad desde diferentes perspectivas.</p>
+    </div>
+  </section>
 
-    <section class="books">
-        <h2>Libros de No Ficción</h2>
+  <section class="categoria-libros">
+    <h2>Libros de No Ficción Destacados</h2>
+    <div class="libros-grid">
+      <div class="libro-item">
+        <img src="https://tienda.planetadelibros.com.ar/cdn/shop/files/386411_historias-de-las-ideas-cientificas_9789504940319.jpg?v=1694529456" alt="Libro No Ficción 1">
+        <h3>Historia de las Ideas</h3>
+        <p>Un recorrido por la evolución de las ideas a lo largo de la historia.</p>
+      </div>
 
-        <div class="book">
-            <img src="path/to/book-image3.jpg" alt="Libro 1">
-            <div class="book-info">
-                <h3>La Historia del Mundo</h3>
-                <p class="author">Autor: Carlos Martínez</p>
-                <p class="price">$25.00</p>
-                <button class="btn">Comprar</button>
-            </div>
-        </div>
+      <div class="libro-item">
+        <img src="https://http2.mlstatic.com/D_NQ_NP_624994-MLU48712629259_122021-O.webp" alt="Libro No Ficción 2">
+        <h3>Los Secretos de la Ciencia</h3>
+        <p>Un análisis de los grandes avances científicos y sus implicaciones.</p>
+      </div>
 
-        <div class="book">
-            <img src="path/to/book-image4.jpg" alt="Libro 2">
-            <div class="book-info">
-                <h3>El Futuro de la Ciencia</h3>
-                <p class="author">Autor: Elena Gómez</p>
-                <p class="price">$22.00</p>
-                <button class="btn">Comprar</button>
-            </div>
-        </div>
+      <div class="libro-item">
+        <img src="https://cdn.oceano.com.ar/titulos/9786075271477.jpg" alt="Libro No Ficción 3">
+        <h3>El Mundo Natural</h3>
+        <p>Estudio sobre la biodiversidad y el impacto humano en la naturaleza.</p>
+      </div>
+    </div>
+  </section>
 
-    </section>
-
-    <footer>
-        <p>&copy; 2025 Libros del Negro. Todos los derechos reservados.</p>
-    </footer>
-
+  <footer>
+    <p>&copy; 2025 Libros del Negro. Todos los derechos reservados.</p>
+  </footer>
 </body>
 </html>
